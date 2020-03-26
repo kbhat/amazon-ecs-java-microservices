@@ -94,7 +94,7 @@ def create_ecs_cluster(stack_name):
                 },
                 {
                     'ParameterKey': 'EcsInstanceType',
-                    'ParameterValue': 'c4.xlarge',
+                    'ParameterValue': 'm1.medium',
                     'UsePreviousValue': True
                 },
                 {

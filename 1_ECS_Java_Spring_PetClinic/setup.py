@@ -101,7 +101,7 @@ def create_ecs_cluster(stack_name):
                 },
                 {
                     'ParameterKey': 'EcsInstanceType',
-                    'ParameterValue': 'm4.large',
+                    'ParameterValue': 't2.micro',
                     'UsePreviousValue': True
                 },
                 {
@@ -176,7 +176,7 @@ def create_ecs_cluster_mysql(stack_name, stack_name_ecs_cluster, vpc_id, subnet1
                 },
                 {
                     'ParameterKey': 'InstanceType',
-                    'ParameterValue': 'm4.large'
+                    'ParameterValue': 't2.micro'
                 }
             ],
             TimeoutInMinutes=123,
